@@ -55,15 +55,6 @@
 
     <ImageButton
         app:srcCompat="@android:drawable/ic_input_add"
-        android:id="@+id/imageButton3"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/myAwesomeTextView"
-        android:layout_marginBottom="24dp" />
-
-    <ImageButton
-        app:srcCompat="@android:drawable/ic_input_add"
         android:id="@+id/imageButton5"
         android:layout_width="120dp"
         android:layout_height="120dp"
@@ -96,5 +87,41 @@
         android:layout_height="120dp"
         android:layout_alignTop="@+id/imageButton3"
         android:layout_alignStart="@+id/imageButton5" />
+
+    <ImageButton
+        app:srcCompat="@android:drawable/ic_input_add"
+        android:id="@+id/imageButton3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/imageButton2"
+        android:layout_alignEnd="@+id/myAwesomeTextView"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignEnd="@+id/toggleNovice"
+        android:layout_marginEnd="12dp"
+        android:id="@+id/button3" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/button4" />
+
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/button2"
+        android:layout_below="@+id/imageButton3"
+        android:layout_alignEnd="@+id/toggleBeginner"
+        android:layout_marginEnd="25dp" />
 
 </RelativeLayout>
